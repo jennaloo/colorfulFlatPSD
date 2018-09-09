@@ -26,14 +26,39 @@ nav .navbar-brand{
 
 .workGrid{
     background-color: #99D3A7;
-    height:500px;
+    height:100%;
+}
+
+.workGrid img{
+    height:200px;
+    width:250px;
+    object-fit:cover;
 }
 
 .showcase img{
-    height:200px;
+    height:100px;
     object-fit:contain;
 }
 
 .showcase h3{
     font-size:1rem;
+}
+
+.workheader{
+    font-family: 'Roboto Slab', serif;
+    font-size:30px;
+}
+
+.btn-green{
+background-color: #99D3A7;
+}
+
+.btn-blue{
+    background-color: #A5D0D9;
+}
+
+@media (max-width:767px){
+    .workphoto{
+        width:100% !important;
+    }
 }
