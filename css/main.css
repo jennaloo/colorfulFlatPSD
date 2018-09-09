@@ -1,69 +1,92 @@
-nav{
+nav {
     background-color: #A5D0D9;
 }
 
-nav .navbar-brand{
+nav .navbar-brand {
     font-family: 'Roboto Slab', serif;
 }
 
-.carousel{
+.carousel {
     background-color: #A5D0D9;
-    height:100%;
+    height: 100%;
 }
 
 
-.carousel-item h1{
+.carousel-item h1 {
     font-family: 'Roboto Slab', serif;
-    color:white;
-    font-size:34px;
-    padding-top:60px;
+    color: white;
+    font-size: 34px;
+    padding-top: 60px;
 }
 
-.carousel img{
-    height:300px;
-    object-fit:contain;
+.carousel img {
+    height: 300px;
+    object-fit: contain;
 }
 
-.workGrid{
+.workGrid {
     background-color: #99D3A7;
-    height:100%;
+    height: 100%;
 }
 
-.workGrid img{
-    height:200px;
-    width:250px;
-    object-fit:cover;
+.workGrid img {
+    height: 200px;
+    width: 250px;
+    object-fit: cover;
 }
 
-.showcase img{
-    height:100px;
-    object-fit:contain;
+.meetusHeader img {
+    height: 200px;
+    width: 250px;
+    object-fit: cover;
 }
 
-.showcase h3{
-    font-size:1rem;
+.meetusHeader .workphoto {
+    background-color: white;
+    height: 200px;
+    width: 250px;
 }
 
-.header{
+.showcase img {
+    height: 100px;
+    object-fit: contain;
+}
+
+.showcase h3 {
+    font-size: 1rem;
+}
+
+.header {
     font-family: 'Roboto Slab', serif;
-    font-size:30px;
+    font-size: 30px;
 }
 
-.meetusHeader{
+.meetusHeader {
     background-color: #E0B6C6;
-    height:100%;
+    height: 100%;
 }
 
-.btn-green{
-background-color: #99D3A7;
+.btn-green {
+    background-color: #99D3A7;
 }
 
-.btn-blue{
+.btn-blue {
     background-color: #A5D0D9;
 }
 
-@media (max-width:767px){
-    .workphoto{
-        width:100% !important;
+.meetusHeader h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+
+.meetusHeader h5 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+}
+
+
+@media (max-width:767px) {
+    .workphoto {
+        width: 100% !important;
     }
 }
