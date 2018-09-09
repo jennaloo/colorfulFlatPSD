@@ -84,6 +84,15 @@ nav .navbar-brand {
     font-size: 14px;
 }
 
+.info {
+    width: 250px;
+    height: 200px;
+    background-color: white;
+}
+
+.meetusHeader i {
+    font-size: 40px;
+}
 
 @media (max-width:767px) {
     .workphoto {
