@@ -109,4 +109,14 @@ nav .navbar-brand {
 
 .contactForm {
     margin: 5px;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.message::placeholder {
+    vertical-align: top;
+}
+
+.message {
+    height: 100px;
 }
