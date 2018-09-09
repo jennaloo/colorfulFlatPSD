@@ -41,6 +41,12 @@ nav .navbar-brand {
     object-fit: cover;
 }
 
+.recentPosts img {
+    height: 200px;
+    width: 250px;
+    object-fit: cover;
+}
+
 .meetusHeader .workphoto {
     background-color: white;
     height: 200px;
@@ -66,6 +72,11 @@ nav .navbar-brand {
     height: 100%;
 }
 
+.recentPosts {
+    background-color: #A5D0D9;
+    height: 100%;
+}
+
 .btn-green {
     background-color: #99D3A7;
 }
@@ -74,12 +85,14 @@ nav .navbar-brand {
     background-color: #A5D0D9;
 }
 
-.meetusHeader h3 {
+.meetusHeader h3,
+.recentPosts h3 {
     font-family: 'Roboto Slab', serif;
     font-size: 20px;
 }
 
-.meetusHeader h5 {
+.meetusHeader h5,
+.recentPosts h5 {
     font-family: 'Roboto Slab', serif;
     font-size: 14px;
 }
@@ -94,8 +107,6 @@ nav .navbar-brand {
     font-size: 40px;
 }
 
-@media (max-width:767px) {
-    .workphoto {
-        width: 100% !important;
-    }
+.contactForm {
+    margin: 5px;
 }
