@@ -44,9 +44,14 @@ nav .navbar-brand{
     font-size:1rem;
 }
 
-.workheader{
+.header{
     font-family: 'Roboto Slab', serif;
     font-size:30px;
+}
+
+.meetusHeader{
+    background-color: #E0B6C6;
+    height:100%;
 }
 
 .btn-green{
