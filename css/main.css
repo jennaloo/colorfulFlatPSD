@@ -1,0 +1,23 @@
+nav{
+    background-color: #A5D0D9;
+}
+
+nav .navbar-brand{
+    font-family: 'Roboto Slab', serif;
+}
+
+.carousel{
+    background-color: #A5D0D9;
+    height:300px;
+}
+
+
+.carousel-item h1{
+    font-family: 'Roboto Slab', serif;
+    color:white;
+    font-size:34px;
+}
+
+.clipart{
+    margin-left:20%;
+}
