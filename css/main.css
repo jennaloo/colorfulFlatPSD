@@ -19,6 +19,12 @@ nav .navbar-brand {
     padding-top: 60px;
 }
 
+ol.carousel-indicators li {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+}
+
 .carousel img {
     height: 300px;
     object-fit: contain;
@@ -83,6 +89,10 @@ nav .navbar-brand {
 
 .btn-blue {
     background-color: #A5D0D9;
+}
+
+.meetusHeader i {
+    font-size: 40px;
 }
 
 .meetusHeader h3,
